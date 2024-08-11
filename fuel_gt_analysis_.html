@@ -10211,6 +10211,7 @@ Test Data - MAE: 96786.8933, RMSE: 116913.3359
 <ul>
 <li>La discrepancia en el rendimiento de test sugiere que el modelo LSTM puede estar sobreajustando los datos de validación y teniendo dificultades para adaptarse a los patrones diferentes en los datos de test.</li>
 </ul>
+<p>Sin embargo, algo <strong>muy</strong> importante a tomar en consideración es el hecho de que el modelo ARIMA presenta una predicción de forma similar a la de una función lineal. Esto parece causar la falta de captura de las fluctuaciones o la estacionalidad en la serie de tiempo, lo que podría generar un ajuste insuficiente si los datos reales muestran patrones más complejos. Pr ende, aunque sus métricas sean mejores, se cree no es lo suficientemente complejo como para capturar los patrones reales en los datos.</p>
 </div>
 </div>
 </div>
@@ -10222,7 +10223,7 @@ Test Data - MAE: 96786.8933, RMSE: 116913.3359
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <div class="alert alert-block alert-info">
-<b>Nota:</b> Basándose en lo anteriormente expuesto, se concluye que el modelo más adecuado para la predicción de la serie de tiempo relacionada con el <b>importación de gasolina regular</b> en Guatemala es el modelo ARIMA.
+<b>Nota:</b> Basándose en lo anteriormente expuesto, se concluye que el modelo más adecuado para la predicción de la serie de tiempo relacionada con el <b>importación de gasolina regular</b> en Guatemala es el modelo LSTM.
 </div>
 </div>
 </div>
@@ -10383,7 +10384,7 @@ Test Data - MAE: 0.0682, RMSE: 0.1645
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <div class="alert alert-block alert-info">
-<b>Nota:</b> Basándose en lo anteriormente expuesto, se concluye que el modelo más adecuado para la predicción de la serie de tiempo relacionada con el <b>predicción de costo de Diesel</b> en Guatemala es el modelo LSTM.
+<b>Nota:</b> Basándose en lo anteriormente expuesto, se concluye que el modelo más adecuado para la predicción de la serie de tiempo relacionada con el <b>costo de Diesel</b> en Guatemala es el modelo LSTM.
 </div>
 </div>
 </div>
